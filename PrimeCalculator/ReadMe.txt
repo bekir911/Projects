@@ -1,0 +1,2 @@
+Programın asıl yazılış amacı 1 milyardan küçük, kendisinden küçük asal sayıların toplamının asal olduğu en büyük sayıyı bulmak.
+Yine de girilen sayıya kadar kaç adet asal sayı olduğunu, ya da 1 milyar dışındaki sayılar için de aynı durumu hesaplayabilir
