@@ -26,7 +26,7 @@ bool isPrime(long long number) {
 int main() {
 
 	//array size belirtiyor. Bu kadar sayi tutabilir icinde
-	//1 milyardan kücük asal sayilar daha az oldugu icin sorun yok
+	//1 milyardan kÃ¼cÃ¼k asal sayilar daha az oldugu icin sorun yok
 	//orijinalde 50'847'534 olmali
 	//constexpr auto ARRAY_SIZE = 50'850'000;
 	//int array'i olusturuyor, deger 1 milyari tutabildigi icin sorun yok
@@ -40,7 +40,11 @@ int main() {
 	//kullanicidan sayi alip degiskene atiyor
 	cout << "Enter number: ";
 	cin >> max;
-
+	
+	//pi(x)'ten biraz buyuk bir deger elde ediliyor
+	//fazladan yer almak gereksiz ve zaman harciyor
+	max = max / (log(max) - 2);
+	
 	//dizi olusturuyor
 	double* array = new double[max];
 
