@@ -136,6 +136,9 @@ int main() {
 		cout << "index: " << i + 1 << "\tValue: " << array[i] << endl;
 
 #endif PRINT
-
+	
+	//bellekten alinan yeri birakiyor
+	delete[] array;
+	
 	return 0;
 }
