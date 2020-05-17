@@ -1,0 +1,2 @@
+Süresi 20-60 dakika, puanı ise 1-10 arasında rastgele değişen 10 filmin olduğu listede;
+180 dakika içerisinde alınabilecek en yüksek puanı greedy (hırslı) ve brute force (kaba kuvvet) yöntemleri ise hesaplayan program
